@@ -1,0 +1,35 @@
+.row-about{
+	font-family:  georgia, serif;
+	color:#143E9F;
+	font-weight: bold;
+	letter-spacing: 7px;
+	padding-bottom:20px;
+}
+
+.row-blank{
+	background: white;
+	padding-bottom: 60px;
+}
+
+.img-jamar{
+	border-radius:0;
+	width: 248px;
+	height: 235px;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.caption{
+	font-weight: bold;
+	font-family: Verdana;
+	position:relative;
+	padding-top: 10px;
+}
+
+.description{
+	padding-top:15px;
+	font-size: 19px;
+	font-family: Arial;
+	letter-spacing: .25px;
+	color: #575959;
+}
+
