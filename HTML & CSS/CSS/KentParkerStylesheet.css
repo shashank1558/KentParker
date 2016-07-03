@@ -6,9 +6,10 @@ body{
 
 header{
 	background: #143E9F;
-	padding:20px;
-}
+	padding:30px 0 30px 20px;
+	width:100%;
 
+}
 #kentParker{
 	 font-family: Verdana;
 	 margin: 0;
@@ -16,42 +17,75 @@ header{
 	 display:inline;
 }
 
+
+
 #kentParker a{
 	color:white;
 	text-decoration:none;
 }
 
-.nav-bar ul{
-	display:inline;
-	margine:0;
-	padding-left: 900px;
+.myNavbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-top:.4px solid white;
 }
 
-.nav-bar ul li{
-	display: inline-block;
-	margin: 0;
-	color:white;
-	list-style-type: none;
-	font-family: Verdana;	
-    padding:10px;
+.myNavbar li {
+	float: left;
 }
 
-.nav-bar ul li a{
-    text-decoration:none;
-    color: white;
+.myNavbar li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
 }
 
-.nav-bar ul li a:hover {
-    border-bottom: 2px solid #FFFFFF;
-    padding-bottom: 7px;
-    color: white;
+.myNavbar li a:hover {
+	background-color: #777;
 }
 
-.nav-bar ul li a:active {
-    border-bottom: 2px solid #FFFFFF;
-    padding-bottom: 7px;
-    color: white;
+.myNavbar li.icon {
+	display: none;
 }
+
+
+
+@media screen and (max-width:680px) {
+  .myNavbar li:not(:first-child) {
+  	display: none;
+  }
+  .myNavbar li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+ .myNavbar.responsive {
+ 	position: relative;
+ }
+  ul.myNavbar.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+ .myNavbar.responsive li {
+    float: none;
+    display: inline;
+  }
+ .myNavbar.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
 
 /*------------------FOOTER-----------------*/
 
@@ -63,14 +97,11 @@ html, body {height: 100%;}
 	padding-bottom: 180px;}  /* must be same height as the footer */
 
 #footer {position: relative;
-	margin-top: -100px; /* negative value of footer height */
-	height: 100px;
+	margin-top: -70px; /* negative value of footer height */
+	height: 70px;
 	clear:both;
-	background: #A7A8A8; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left , #942B27, #333B86); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(right,#942B27,#333B86); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient( right, #942B27, #333B86); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to right, #942B27, #333B86); /* Standard syntax */
+	background: #868687; /* For browsers that do not support gradients */
+	
 
 } 
 
