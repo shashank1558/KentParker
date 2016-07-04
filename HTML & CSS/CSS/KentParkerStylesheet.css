@@ -44,7 +44,7 @@ header{
   padding: 10px 16px;
   text-decoration: none;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 12px;
 }
 
 .myNavbar li a:hover {
@@ -151,10 +151,10 @@ margin-top:-32767px;
 
 .description{
 	padding-top:15px;
-	font-size: 19px;
+	font-size: 17px;
 	font-family: Arial;
-	letter-spacing: .25px;
-	color: #575959;
+	letter-spacing:.25px;
+   	line-height:170%;
 }
 
 /*------------------KPSignUpPage-----------------*/
@@ -269,5 +269,44 @@ margin-top:-32767px;
 	text-align:center;
 }
 
+/*------------------DescriptiveNewsPage-----------------*/
 
+#newsHeading{
+	color:#BF1B27;
+}
+
+.date{
+	color:#B6B7B8;
+}
+
+#news{
+   font-family:sans-serif;
+   font-size:17px;
+   letter-spacing:.25px;
+   line-height:170%;
+   padding:10px;
+   text-align: left;
+}
+
+.feedbackHeading{
+	border-bottom:1px solid #B0B0B0;
+}
+
+.relatedNews{
+text-align:center;
+}
+
+.relatedNewsHeading{
+	border-bottom:1px solid #B0B0B0;
+	padding:20px;
+}
+
+.publishButton{
+	padding:15px 30px;
+	background:#BF1B27;
+	color:white;
+	text-decoration:none;
+	cursor: pointer;
+	border: none; 
+}
 
