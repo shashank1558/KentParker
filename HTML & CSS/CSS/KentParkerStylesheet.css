@@ -123,11 +123,11 @@ margin-top:-32767px;
 /*------------------AboutPage-----------------*/
 
 .row-about{
-	font-family:  georgia, serif;
-	color:#143E9F;
-	font-weight: bold;
-	letter-spacing: 7px;
+	font-family:  sans-serif;
+	color:#BF1B27;;
 	padding-bottom:20px;
+	text-align:center;
+	letter-spacing:10px;
 }
 
 .row-blank{
@@ -308,5 +308,51 @@ text-align:center;
 	text-decoration:none;
 	cursor: pointer;
 	border: none; 
+}
+
+/*------------------NewsReaderDashboardPage-----------------*/
+
+#profileImage{
+	width: 220px;
+	height: 210px;
+	margin: 0 auto;
+	display:block;
+}
+
+.editButton{
+	padding:15px 30px;
+	background:#BF1B27;
+	color:white;
+	text-decoration:none;
+	cursor: pointer;
+	border: none; 
+	text-align: center;
+	margin: 0 auto;
+	display:block;
+}
+#newsReaderName{
+	color:#BF1B27;
+}
+
+.information{
+	text-align:left;
+	font-family:sans-serif;
+    font-size:15px;
+    letter-spacing:.25px;
+    line-height:170%;
+
+}
+
+/*------------------NewsReaderPublicProfilePage-----------------*/
+
+.reportButton{
+	padding:7px 22px;
+	background:#B5B5B5;
+	color:white;
+	text-decoration:none;
+	cursor: pointer;
+	border: none; 
+	text-align: center;
+	
 }
 
