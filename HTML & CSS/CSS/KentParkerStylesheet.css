@@ -230,6 +230,13 @@ margin-top:-32767px;
 	text-align:center;
 }
 
+.printRealeaseAttributes{
+	text-align:center;
+	border-bottom:1px solid #B0B0B0;
+	color:#B5B5B5;
+	font-size: 1.5em;
+}
+
 /*------------------NewsReaderSignUpPage-----------------*/
 
 #newsreaderSignUp{
@@ -329,6 +336,7 @@ text-align:center;
 	text-align: center;
 	margin: 0 auto;
 	display:block;
+	clear:left
 }
 #newsReaderName{
 	color:#BF1B27;
@@ -356,3 +364,14 @@ text-align:center;
 	
 }
 
+/*------------------NewsReaderEditProfilePage-----------------*/
+
+.oldBio{
+  color:#787878;
+}
+
+.editProfile{
+	border: .5px solid #E1E1E1;
+	padding: 40px;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
