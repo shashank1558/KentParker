@@ -230,13 +230,6 @@ margin-top:-32767px;
 	text-align:center;
 }
 
-.printRealeaseAttributes{
-	text-align:center;
-	border-bottom:1px solid #B0B0B0;
-	color:#B5B5B5;
-	font-size: 1.5em;
-}
-
 /*------------------NewsReaderSignUpPage-----------------*/
 
 #newsreaderSignUp{
@@ -336,7 +329,6 @@ text-align:center;
 	text-align: center;
 	margin: 0 auto;
 	display:block;
-	clear:left
 }
 #newsReaderName{
 	color:#BF1B27;
@@ -364,14 +356,77 @@ text-align:center;
 	
 }
 
-/*------------------NewsReaderEditProfilePage-----------------*/
-
-.oldBio{
-  color:#787878;
+/*-----------------Media Outlet Profile Page-------------------*/
+.button1{
+	 background-color: #143E9F ;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 auto;
+    display:block;
+    width: 120px;
 }
 
-.editProfile{
-	border: .5px solid #E1E1E1;
-	padding: 40px;
-	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.button2{
+	 background-color: #BF1B27; 
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 auto;
+    display:block;
+    width: 120px;
+    }
+.transButton{
+    border: none;
+    color: white;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 1px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.transButton1 {
+    background-color: white;
+    color:#143E9F ;
+    border: 2px solid #555555;
+    width: 180px;
+
+}
+
+.transButton1:hover {
+    background-color: #143E9F;
+    text-color: white;
+}
+
+#mediaOutletName{
+	color:#BF1B27;
+}
+/*------------------------------Journalist Public Profile---------------------------*/
+#bullet{
+color: #143E9F;
+}
+.transButton2 {
+    background-color: white;
+    color:#143E9F ;
+    border: 2px solid #555555;
+    width: 200px;
+
+}
+
+.transButton2:hover {
+    background-color: #143E9F;
+    text-color: white;
 }
