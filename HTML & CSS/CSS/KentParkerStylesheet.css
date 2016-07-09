@@ -327,13 +327,9 @@ text-align:center;
 	cursor: pointer;
 	border: none; 
 	text-align: center;
-	margin:0 auto;
+	margin: 0 auto;
 	display:block;
-	width: 148px;
 }
-
-
-
 #newsReaderName{
 	color:#BF1B27;
 }
@@ -350,25 +346,16 @@ text-align:center;
 /*------------------NewsReaderPublicProfilePage-----------------*/
 
 .reportButton{
-	padding:15px 30px;
+	padding:7px 22px;
 	background:#B5B5B5;
 	color:white;
 	text-decoration:none;
 	cursor: pointer;
 	border: none; 
 	text-align: center;
-	margin:0 auto;
-	display:block;
-	width:148px;
 	
 }
 
-/*------------------NewsReaderEditProfilePage-----------------*/
-
-.editProfile{
-	padding:30px;
-	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 /*-----------------Media Outlet Profile Page-------------------*/
 .button1{
 	 background-color: #143E9F ;
