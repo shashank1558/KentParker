@@ -1,4 +1,17 @@
 
+/*----------------------INDEX---------------------------------*/
+
+.index{
+	text-align: center;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding:30px;
+}
+
+.indexHeading{
+	border-bottom:1px solid #B0B0B0;
+	color:#BF1B27;
+}
+
 /*------------------NAVBAR-----------------*/
 body{
 	margin: 0;
@@ -489,14 +502,3 @@ font-weight: bold;
     display: inline;
 }
 
-/* border: none;
-    color: white;
-    padding: 6px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin: 2px 1px;
-    -webkit-transition-duration: 0.4s; 
-    transition-duration: 0.4s;
-    cursor: pointer;*/
