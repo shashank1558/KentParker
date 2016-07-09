@@ -1,0 +1,138 @@
+<!--Control Settings for Journalists -->
+<!-- Control Settings Page From dashboard -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Journalist Control Editing</title>
+	<!--[if !IE 7]>
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+    <![endif]-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="CSS/KentParkerStylesheet.css">
+
+</head>
+<body>
+
+<div id="wrap">
+	<div id="main">
+	 				<header>
+                        <h3 id="kentParker"><a href="#">KENT <strong>PARKER</strong></a></h3>
+                    </header>     
+                    
+                    <nav>
+	                    <ul class="myNavbar ">
+						   <li><a href="index.html">Home</a></li>
+                           <li><a href="About.html">About</a></li>
+                          <li><a href="SignIn.html">Sign Out</a></li>
+						 
+						  <li class="icon">
+						    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">
+						       <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+						  </li>
+						</ul>
+                    </nav> 
+		    <div class="container-fluid">
+		      <div class="row-blank">
+		      <h1 id="mediaOutletName">John Smith</h1>
+		      	<div class="col-md-12"> </div>
+		      </div>
+		    </div>
+		    <div class="container">
+		    	<div class="row-form">
+		    		<div class="col-md-2"></div>
+		    		<div class="col-md-8" id="mediaOutletSignUp">
+		    			<h3>Edit Control Settings</h3><br>
+		    			 <form  role="form">
+							 
+							  
+
+
+
+							 
+							 <div>
+
+							  	<label><span class="glyphicon glyphicon-globe" aria-hidden="true"> Select Fields you want to set as public</span></label><br>
+							  	<input name="field" value="Email Id" type="checkbox">
+                Email Id<br>
+               
+                <input name="field" value="Contact No." type="checkbox">
+                Contact No.<br>
+                
+                <input name="field" value="Address" type="checkbox">
+                Address<br>
+                
+                <input name="field" value="Skype Id" type="checkbox">
+                Skype Id<br>
+
+                <input name="field" value="Facebook Id" type="checkbox">
+                Facebook Id<br>
+
+                <input name="field" value="Bio" type="checkbox">
+                Bio<br>
+
+                <input name="field" value="Profile Photo" type="checkbox">
+                Profile Photo<br><br>
+
+                			<div>
+							  	<label><span class="glyphicon glyphicon-pencil" aria-hidden="true">Edit : Blocked Users</span>:</label><br>
+
+							  	<label><span class="glyphicon glyphicon-plus-sign" aria-hidden="true">Add Blocked Users</span>:</label>
+							  	<textarea class="form-control" rows="3" placeholder="Add the KP ids of users you want to add to block list"></textarea> <br>
+
+							  	<label><span class="glyphicon glyphicon-minus-sign" aria-hidden="true">Remove Blocked Users </span>:</label>
+							  	<textarea class="form-control" rows="3" placeholder="Add the KP ids of users you want to remove from block list"></textarea> <br><br>
+
+
+							 </div>
+
+
+
+								<label><span class="glyphicon glyphicon-pencil" aria-hidden="true">Change Username</span>:</label>
+								<input value="FoodCircle"
+                class="form-control" type="text"><br><br>
+							 <b><span style="color:red"><span class="glyphicon glyphicon-pencil" aria-hidden="true">Change Password</span> </span>:</b><input value="FoodCircle"
+                class="form-control" type="text"><br>
+              <label>Old Password:</label> <input value="*******" class="form-control" type="text"><br>
+               
+                <label>New Password:</label> <input value="" class="form-control" type="text">
+                <label>Re-Type to confirm Password:</label> <input value="" class="form-control" type="text"><br>
+                <br>
+
+                			<label><span style="color:red">Type Password to continue</span> <span style="color:red" ><sup>*</sup></span>:</label>
+							  	<input value="" class="form-control" type="text"><br>
+                
+
+							  
+							  	</div>
+							  	</form>	
+						 		<a href="JournalistDashboard.html"><button class="transButton transButton3">Save Changes and Move Back To Dashboard</button></a>
+						  	 </div>
+						</div>
+					</div>
+		    		<div class="col-md-2"></div>		
+		    	</div>
+		     </div>
+	</div>
+</div>
+
+<div id="footer">
+	<p class="rights ">&copy; 2016 <span>KENT</span> PARKER All Rights Reserved.</p>	
+</div>
+
+<script>
+function myFunction() {
+    document.getElementsByClassName("myNavbar")[0].classList.toggle("responsive");
+}
+</script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
